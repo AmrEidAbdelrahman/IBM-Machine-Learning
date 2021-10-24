@@ -1,5 +1,22 @@
 # IBM-Machine-Learning
 
+
+# AI vs ML vs DL
+- AI : is a general field with a broad scope include
+  - computer vision
+  - language processing
+  - creativity
+  - etc...
+- ML : is a branch of AI that cover the statistical part include
+  - Regression
+  - Classification
+  - Neural Network
+  - etc...
+- DL : is a very special field of ML and it is a revolution of ML.
+
+
+
+
 # Major Machine Learning techniques
 - Regression/Estimation
   predicting continuous values
