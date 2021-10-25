@@ -76,3 +76,26 @@ used in :
   - Summerization
   - Anomaly detection
 
+
+# Regression
+regression have two main variable X:Independent Variable and Y:Dependet Variable
+X:Idependent Variable also known as Explantory variable is the causes of the target variable.
+Y:Dependent Variable is the target variable, we study and try to predict.
+in regression, The Y:Dependent variable have to be continuouse not discrete/categorical.
+### Type of Regression
+- Simple Regression
+  - simple Linear regression
+  - Simple Non-linear regression
+- Multiole Regression
+  - Multiple Linear regression
+  - Multiple Non-linear regression
+### Regression algorithms
+- Ordinal Regression
+- Poisson Regression
+- Fast forest quantile regression
+- linear, polynomial, Lasso, Stepwise, Ridge regression
+- Bayesian linear regression
+- Newural network regression
+- Decision forest regression
+- Boosted decision tree regression
+- KNN (K-nearest neighbors)
