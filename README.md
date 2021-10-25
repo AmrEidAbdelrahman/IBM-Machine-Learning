@@ -52,4 +52,27 @@
   - Prediction
   - Evaluation
   - Model export
-   
+  
+# Supervised vs Unsupervised Learning
+- supervised : we teach the model, then with that knowledge, it can predict unknown or future instance. (Classification and Regression)
+  - Labeled Data
+  - Has more evaluation models that unsupervised learning
+  - controlled environment
+- unsupervised : the model work on its own to discover information. (Clustering, Dimension Reduction and Density estimation)
+  - Unlabeled Data
+  - have fewer evaluation models that supervised learning
+  - less controlled environment
+
+## what is Classification ?
+Classification is the proess of predicting discrete class label.
+
+## what is Regression ?
+Regression is the process of predicting continupus values.
+
+## What is Clustering ?
+Clustering is consedered to be the most popular unsupervised machine learning techniques use for grouping data point or object that is some how similar.
+used in :
+  - Discovering structure
+  - Summerization
+  - Anomaly detection
+
