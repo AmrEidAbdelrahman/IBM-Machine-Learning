@@ -34,3 +34,22 @@
   reducting the size of the data (PCA)
 - Recommendation System
   recommending items
+  
+  
+  # More about scikit-learn
+  - free software machine learning library
+  - have most of regression, classification abd clustering algorithms
+  - work with numpy and scipy
+  - have a great organized documentation
+  - easy to implemnet
+  - all phases of machine learning process are implemented including
+    - Data preprocessing
+    - Feature extraction
+    - Feature Selection
+    - Train/Test split
+    - Algorithm setup
+    - Model fitting
+    - Prediction
+    - Evaluation
+    - Model export
+   
