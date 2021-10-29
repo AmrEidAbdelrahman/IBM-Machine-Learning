@@ -103,7 +103,13 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
 ## Simple Linear Regression :
 - this is how simple linear regression works
   <br><img src='img/Linear Regression model representation.jpg'><br>
+  s.t seta0 and seta1 are the cooffecient of the fit line
  
 - Find the best fit <br>
   <img src='img/Linear Regression find the best fit.jpg'><br>
+  
+- pros:
+  - very fast.
+  - no need to parameters tunning
+  - Easy to understand, and highly interpretable.
   
