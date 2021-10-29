@@ -102,4 +102,4 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
 
 ## Simple Linear Regression :
 - this is how simple linear regression works
-  <br><img src='img/linear_regression_model_representation.jpeg'>
+  <br><img src='img/Linear Regression model representation.jpg'><br>
