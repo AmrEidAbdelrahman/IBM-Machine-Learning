@@ -113,3 +113,5 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
   - no need to parameters tunning
   - Easy to understand, and highly interpretable.
   
+- Accuracy:
+  <br><img src='img/Linear Regression Accuracy.jpg'><br>
