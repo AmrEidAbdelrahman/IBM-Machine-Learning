@@ -114,4 +114,10 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
   - Easy to understand, and highly interpretable.
   
 - Accuracy:
+  1. first approach: train and test on the same data
   <br><img src='img/Linear Regression Accuracy.jpg'><br>
+    ```this give us High training accuracy( accuracy of the data we train the model on ) and low out of sample accuracy ( accuracy of other data the model didn't see before )```
+    overfit model 
+    
+  2. second approach: train/test split 
+    more accurate evaluation on out of sample accuracy 
