@@ -82,14 +82,14 @@ regression have two main variable X:Independent Variable and Y:Dependet Variable
 X:Idependent Variable also known as Explantory variable is the causes of the target variable.
 Y:Dependent Variable is the target variable, we study and try to predict.
 in regression, The Y:Dependent variable have to be continuouse not discrete/categorical.
-### Type of Regression
-- Simple Regression
+#### Type of Regression
+- Simple Linear Regression
   - simple Linear regression
   - Simple Non-linear regression
-- Multiole Regression
+- Multiple Linear Regression
   - Multiple Linear regression
   - Multiple Non-linear regression
-### Regression algorithms
+#### Regression algorithms
 - Ordinal Regression
 - Poisson Regression
 - Fast forest quantile regression
@@ -99,3 +99,7 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
 - Decision forest regression
 - Boosted decision tree regression
 - KNN (K-nearest neighbors)
+
+## Simple Linear Regression :
+- this is how simple linear regression works
+  <br><img src='img/linear_regression_model_representation.jpeg'>
