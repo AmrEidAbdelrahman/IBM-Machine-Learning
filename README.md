@@ -147,4 +147,5 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
     2. using optmization algorithm
       - gradient descent ( this approach work with a larg data set ) <a href=''>read more</a>
     
-  - important quetion in case to use [multiple] linear regression
+  - important quetion in case to use [multiple] linear regression <br>
+    <img src='img/Question about Multiple linear regression.jpg'><br>
