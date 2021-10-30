@@ -135,3 +135,16 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
   4. RELATIVE ABSOLUTE ERROR(RAE)
   5. RELATIVE SQUARED ERROR(RSE)
   6. R-Squared(R^2)
+
+## Multiple linear regression <br>
+<br><img src='img/multiple linear regression.jpg'><br>
+  - model error: like in simple LR we can use MSE to find the error
+    <br><br><img src='img/Multiple model error.jpg'><br>
+    
+  - how to find the parameter seta ?
+    1. using Linear algebra operations
+      - Ordinal Least Squares: we need to find the minimum error with iterate the process but it take a long time with the larg data set
+    2. using optmization algorithm
+      - gradient descent ( this approach work with a larg data set ) <a href=''>read more</a>
+    
+  - important quetion in case to use [multiple] linear regression
