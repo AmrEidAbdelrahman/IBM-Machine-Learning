@@ -121,3 +121,6 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
     
   2. second approach: train/test split 
     more accurate evaluation on out of sample accuracy 
+    
+  3. k-folds cross validation<br>
+    <img src='img/k-folds cross validation.jpg'><br>
