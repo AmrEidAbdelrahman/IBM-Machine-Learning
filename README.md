@@ -129,3 +129,9 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
   There are many ways to calculate the error of a model...
   <br>
   <img src='img/model error.jpg'><br>
+  1. MEAN ABSOLUATE ERROR(MAE)
+  2. MEAN SQUARED ERROR(MSE)
+  3. ROOT MEAN SQUARED ERROR(RMSE)
+  4. RELATIVE ABSOLUTE ERROR(RAE)
+  5. RELATIVE SQUARED ERROR(RSE)
+  6. R-Squared(R^2)
