@@ -89,6 +89,7 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
 - Multiple Linear Regression
   - Multiple Linear regression
   - Multiple Non-linear regression
+- Polynomial Regression
 #### Regression algorithms
 - Ordinal Regression
 - Poisson Regression
@@ -149,3 +150,12 @@ in regression, The Y:Dependent variable have to be continuouse not discrete/cate
     
   - important quetion in case to use [multiple] linear regression <br>
     <img src='img/Question about Multiple linear regression.jpg'><br>
+
+## Polynomail Regression ( non-linear regression )
+<br><img src='img/non linear regression.jpg'><br><br>
+some curvy data can be modelated by a polynomial regression
+  - a polynomial regression model can be transformed into linear regression model
+  - can be fit with least squares algorithm
+
+## Linear vs non-Linear Regression
+<br><img src='img/linear vs non-linear.jpg'><br>
