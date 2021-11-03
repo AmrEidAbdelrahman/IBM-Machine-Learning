@@ -215,4 +215,22 @@ To select the K that’s right for your data, we run the KNN algorithm several t
 <a href'https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761'>KNN Explanation</a>
 
 
+## Decision Tree
+<br><img src='img/decision tree algorithm.jpg'><br>
+
+#### Entropy :
+The entropy in a node is the amount of information disorder calculated in each node.
+
+#### Information Gain:
+Another term worth noting is “Information Gain” which is used with splitting the data using entropy. It is calculated as the decrease in entropy after the dataset is split on an attribute:
+```
+Gain(T,X) = Entropy(T) — Entropy(T,X)
+- T = target variable
+- X = Feature to be split on
+- Entropy(T,X) = The entropy calculated after the data is split on feature X
+```
+
+#### Node impurity / Impurity Criterion:
+Both Scikit-learn and Spark provide information in their documentation on the formulas used for impurity criterion. For classification, they both use Gini impurity by default but offer Entropy as an alternative. For regression, both calculate variance reduction using Mean Square Error. Additionally, variance reduction can be calculated with Mean Absolute Error in Scikit-learn.
+<br><img src='https://miro.medium.com/max/630/1*eES0Bh8jTB73P3ad_U2aCA.png'><br>
 
