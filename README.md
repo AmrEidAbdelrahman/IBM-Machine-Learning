@@ -216,6 +216,7 @@ To select the K that’s right for your data, we run the KNN algorithm several t
 
 
 ## Decision Tree
+Decision trees learn how to best split the dataset into smaller and smaller subsets to predict the target value. The condition, or test, is represented as the “leaf” (node) and the possible outcomes as “branches” (edges). This splitting process continues until no further gain can be made or a preset rule is met, e.g. the maximum depth of the tree is reached.
 <br><img src='img/decision tree algorithm.jpg'><br>
 
 #### Entropy :
@@ -233,4 +234,13 @@ Gain(T,X) = Entropy(T) — Entropy(T,X)
 #### Node impurity / Impurity Criterion:
 Both Scikit-learn and Spark provide information in their documentation on the formulas used for impurity criterion. For classification, they both use Gini impurity by default but offer Entropy as an alternative. For regression, both calculate variance reduction using Mean Square Error. Additionally, variance reduction can be calculated with Mean Absolute Error in Scikit-learn.
 <br><img src='https://miro.medium.com/max/630/1*eES0Bh8jTB73P3ad_U2aCA.png'><br>
+<!--
+#### advatages for ID3:
+- Builds the fastest tree
+- Understandable prediction rules are created from the training data
 
+#### disadvantages ID3:
+- Data may be over-fitted or over-classified, if a small sample is tested
+- Only one attribute at a time is tested for making a decision
+- Does not handle numeric attributes and missing values
+-->
