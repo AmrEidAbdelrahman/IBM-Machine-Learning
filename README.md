@@ -188,7 +188,7 @@ The KNN algorithm assumes that similar things exist in close proximity. In other
 <br><img src='https://miro.medium.com/max/611/1*wW8O-0xVQUFhBGexx2B6hg.png'><br>
 KNN captures the idea of similarity (sometimes called distance, proximity, or closeness) with some mathematics.
 There are other ways of calculating distance, and one way might be preferable depending on the problem we are solving. However, the straight-line distance (also called the Euclidean distance) is a popular and familiar choice.
-<br><br><img src='img/knn algorithm.jpg'><br>
+<br><br><img src='img/Knn algorithm.jpg'><br>
 #### Choosing the right value for K:
 To select the K that’s right for your data, we run the KNN algorithm several times with different values of K and choose the K that reduces the number of errors we encounter while maintaining the algorithm’s ability to accurately make predictions when it’s given data it hasn’t seen before.
 
