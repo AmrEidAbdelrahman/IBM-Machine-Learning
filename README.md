@@ -182,5 +182,26 @@ some curvy data can be modelated by a polynomial regression
 - Support Vector Machine (SVM)
 
 
+## K-Nearst Neighbour
+The k-nearest neighbors (KNN) algorithm is a simple, easy-to-implement supervised machine learning algorithm that can be used to solve both classification and regression problems. 
+The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other.
+<br><img src='https://miro.medium.com/max/611/1*wW8O-0xVQUFhBGexx2B6hg.png'><br>
+KNN captures the idea of similarity (sometimes called distance, proximity, or closeness) with some mathematics.
+There are other ways of calculating distance, and one way might be preferable depending on the problem we are solving. However, the straight-line distance (also called the Euclidean distance) is a popular and familiar choice.
+<br><br><img src='img/knn algorithm.jpg'><br>
+#### Choosing the right value for K:
+To select the K that’s right for your data, we run the KNN algorithm several times with different values of K and choose the K that reduces the number of errors we encounter while maintaining the algorithm’s ability to accurately make predictions when it’s given data it hasn’t seen before.
+
+#### Advantage
+- The algorithm is simple and easy to implement.
+- There’s no need to build a model, tune several parameters, or make additional assumptions.
+- The algorithm is versatile. It can be used for classification, regression, and search (as we will see in the next section).
+
+#### Disadvantages
+- The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase.
+
+#### references:
+<a href'https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761'>KNN Explanation</a>
+
 
 
