@@ -244,3 +244,22 @@ Both Scikit-learn and Spark provide information in their documentation on the fo
 - Only one attribute at a time is tested for making a decision
 - Does not handle numeric attributes and missing values
 -->
+
+#### references:
+<a href='https://towardsdatascience.com/the-mathematics-of-decision-trees-random-forest-and-feature-importance-in-scikit-learn-and-spark-f2861df67e3'>Decision Tree</a>
+
+
+## Logistic Regression
+- Logistic regression is analogous to linear regression but takes a categorical/discrete target field instead of a numeric one.
+- Logistic Regression measures the probability of a case belonging to a specific class.
+- Logistic Regression can be used to understand the impact of a feature on a dependent variable.
+- Data is fit into linear regression model, which then be acted upon by a logistic function predicting the target categorical dependent variable.
+
+#### When is logisitc regression suitable ?
+- if your data is binary.
+- if you need probalisitic resullt
+- when you need a linear decision boundry
+- if you need to understand the impact of each feature
+
+
+
