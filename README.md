@@ -1,5 +1,8 @@
 # IBM-Machine-Learning
 
+<a href='https://github.com/AmrEidAbdelrahman/IBM-Machine-Learning#regression'>Regression</a>
+<a href='https://github.com/AmrEidAbdelrahman/IBM-Machine-Learning#regression'>Classification</a>
+
 
 # AI vs ML vs DL
 - AI : is a general field with a broad scope include
@@ -159,3 +162,25 @@ some curvy data can be modelated by a polynomial regression
 
 ## Linear vs non-Linear Regression
 <br><img src='img/linear vs non-linear.jpg'><br>
+
+
+**===========================================================================================================================================**
+
+# Classification
+
+### What is classification
+- is a supervise machine learning algorithm
+- Categorizing (classifying) some unkown items into a discret set of categorize (classes) 
+
+### classification algorithms:
+- Decision Tree
+- Naive bayes
+- Linear Discriminant Analysis
+- k-nearst neighbour
+- Logistic regression
+- Neural Networks
+- Support Vector Machine (SVM)
+
+
+
+
