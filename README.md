@@ -1,7 +1,7 @@
 # IBM-Machine-Learning
 
-<a href='https://github.com/AmrEidAbdelrahman/IBM-Machine-Learning#regression'>Regression</a>
-<a href='https://github.com/AmrEidAbdelrahman/IBM-Machine-Learning#regression'>Classification</a>
+<a href='https://github.com/AmrEidAbdelrahman/IBM-Machine-Learning#regression'>Regression</a><br>
+<a href='https://github.com/AmrEidAbdelrahman/IBM-Machine-Learning#classification'>Classification</a>
 
 
 # AI vs ML vs DL
@@ -192,6 +192,15 @@ There are other ways of calculating distance, and one way might be preferable de
 #### Choosing the right value for K:
 To select the K that’s right for your data, we run the KNN algorithm several times with different values of K and choose the K that reduces the number of errors we encounter while maintaining the algorithm’s ability to accurately make predictions when it’s given data it hasn’t seen before.
 
+
+#### Evaluation Metrics
+- Jaccard Index:
+  <br><img src='img/Jaccard index evaluation.jpg'><br>
+- F1 score:
+  <br><img src='img/F1 score.jpg'><br>
+- log loss:
+  <br><img src='img/log loss evaluation.jpg'><br>
+
 #### Advantage
 - The algorithm is simple and easy to implement.
 - There’s no need to build a model, tune several parameters, or make additional assumptions.
@@ -199,6 +208,8 @@ To select the K that’s right for your data, we run the KNN algorithm several t
 
 #### Disadvantages
 - The algorithm gets significantly slower as the number of examples and/or predictors/independent variables increase.
+
+
 
 #### references:
 <a href'https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761'>KNN Explanation</a>
