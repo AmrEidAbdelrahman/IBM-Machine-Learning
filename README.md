@@ -234,6 +234,26 @@ Gain(T,X) = Entropy(T) — Entropy(T,X)
 #### Node impurity / Impurity Criterion:
 Both Scikit-learn and Spark provide information in their documentation on the formulas used for impurity criterion. For classification, they both use Gini impurity by default but offer Entropy as an alternative. For regression, both calculate variance reduction using Mean Square Error. Additionally, variance reduction can be calculated with Mean Absolute Error in Scikit-learn.
 <br><img src='https://miro.medium.com/max/630/1*eES0Bh8jTB73P3ad_U2aCA.png'><br>
+
+#### Evaluation
+Accuracy classification score: 
+computes subset accuracy: the set of labels predicted for a sample must exactly match the corresponding set of labels in y_true.
+
+In multilabel classification, the function returns the subset accuracy. If the entire set of predicted labels for a sample strictly matches with the true set of labels, then the subset accuracy is 1.0; otherwise it is 0.0.
+
+
+#### to see the Tree:
+```python
+dot_data = StringIO()
+filename = "imgname.png"
+featureNames = my_data.columns[0:5]
+out=tree.export_graphviz(imgname,feature_names=featureNames, out_file=dot_data, class_names= np.unique(y_trainset), filled=True,  special_characters=True,rotate=False)  
+graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
+graph.write_png(filename)
+img = mpimg.imread(filename)
+plt.figure(figsize=(100, 200))
+plt.imshow(img,interpolation='nearest')
+```
 <!--
 #### advatages for ID3:
 - Builds the fastest tree
