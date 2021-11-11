@@ -263,7 +263,7 @@ Both Scikit-learn and Spark provide information in their documentation on the fo
 
 <a id="ref1"></a>
 
-## What is the difference between Linear and Logistic Regression?
+### What is the difference between Linear and Logistic Regression?
 
 While Linear Regression is suited for estimating continuous values (e.g. estimating house price), it is not the best tool for predicting the class of an observed data point. In order to estimate the class of a data point, we need some sort of guidance on what would be the <b>most probable class</b> for that data point. For this, we use <b>Logistic Regression</b>.
 
@@ -273,15 +273,15 @@ While Linear Regression is suited for estimating continuous values (e.g. estimat
 <br>
     As you know, <b>Linear regression</b> finds a function that relates a continuous dependent variable, <b>y</b>, to some predictors (independent variables $x_1$, $x_2$, etc.). For example, simple linear regression assumes a function of the form:
 <br><br>
-$$
+$
 y = \theta_0 + \theta_1  x_1 + \theta_2  x_2 + \cdots
-$$
+$
 <br>
 and finds the values of parameters $\theta_0, \theta_1, \theta_2$, etc, where the term $\theta_0$ is the "intercept". It can be generally shown as:
 <br><br>
-$$
+$
 ℎ_\theta(𝑥) = \theta^TX
-$$
+$
 <p></p>
 
 </div>
@@ -290,13 +290,13 @@ Logistic Regression is a variation of Linear Regression, used when the observed 
 
 Logistic regression fits a special s-shaped curve by taking the linear regression function and transforming the numeric estimate into a probability with the following function, which is called the sigmoid function 𝜎:
 
-$$
+$
 ℎ\_\theta(𝑥) = \sigma({\theta^TX}) =  \frac {e^{(\theta\_0 + \theta\_1  x\_1 + \theta\_2  x\_2 +...)}}{1 + e^{(\theta\_0 + \theta\_1  x\_1 + \theta\_2  x\_2 +\cdots)}}
-$$
+$
 Or:
-$$
+$
 ProbabilityOfaClass\_1 =  P(Y=1|X) = \sigma({\theta^TX}) = \frac{e^{\theta^TX}}{1+e^{\theta^TX}}
-$$
+$
 
 In this equation, ${\theta^TX}$ is the regression result (the sum of the variables weighted by the coefficients), `exp` is the exponential function and $\sigma(\theta^TX)$ is the sigmoid or [logistic function](http://en.wikipedia.org/wiki/Logistic_function?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMDeveloperSkillsNetworkML0101ENSkillsNetwork20718538-2021-01-01), also called logistic curve. It is a common "S" shape (sigmoid curve).
 
@@ -306,5 +306,33 @@ So, briefly, Logistic Regression passes the input through the logistic/sigmoid b
 src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-ML0101EN-SkillsNetwork/labs/Module%203/images/mod_ID_24_final.png" width="400" align="center">
 
 The objective of the **Logistic Regression** algorithm, is to find the best parameters θ, for $ℎ\_\theta(𝑥)$ = $\sigma({\theta^TX})$, in such a way that the model best predicts the class of each case.
+
+
+The version of Logistic Regression in Scikit-learn, support regularization. Regularization is a technique used to solve the overfitting problem of machine learning models. C parameter indicates inverse of regularization strength which must be a positive float. Smaller values specify stronger regularization. 
+
+
+### Evaluation
+#### jaccard index
+Let's try the jaccard index for accuracy evaluation. we can define jaccard as the size of the intersection divided by the size of the union of the two label sets. If the entire set of predicted labels for a sample strictly matches with the true set of labels, then the subset accuracy is 1.0; otherwise it is 0.0.
+
+#### confusion matrix
+Another way of looking at the accuracy of the classifier is to look at confusion matrix.
+Based on the count of each section, we can calculate precision and recall of each label:
+
+Precision is a measure of the accuracy provided that a class label has been predicted. It is defined by: precision = TP / (TP + FP)
+
+Recall is the true positive rate. It is defined as: Recall =  TP / (TP + FN)
+
+So, we can calculate the precision and recall of each class.
+
+F1 score: Now we are in the position to calculate the F1 scores for each label based on the precision and recall of that label.
+
+The F1 score is the harmonic average of the precision and recall, where an F1 score reaches its best value at 1 (perfect precision and recall) and worst at 0. It is a good way to show that a classifer has a good value for both recall and precision.
+
+
+#### log loss
+Now, let's try log loss for evaluation. In logistic regression, the output can be the probability of customer churn is yes (or equals to 1). This probability is a value between 0 and 1. Log loss( Logarithmic loss) measures the performance of a classifier where the predicted output is a probability value between 0 and 1.
+
+
 
 
